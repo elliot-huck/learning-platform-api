@@ -69,7 +69,7 @@ In your Ubuntu terminal run the following command to initiate the installation a
 
 If you are on PC:
 ```sh
-./linuxInstall-dev.sh -d=$LEARN_OPS_DB \
+./install-linux.sh -d=$LEARN_OPS_DB \
     -u=$LEARN_OPS_USER \
     -p=$LEARN_OPS_PASSWORD \
     -r=$LEARN_OPS_SUPERUSER_NAME \
@@ -82,7 +82,7 @@ When prompted to "remove write-protected regular file './LearningAPI/fixtures/su
 
 If you are on mac:
 ```sh
-./macInstall-dev.sh -d=$LEARN_OPS_DB \
+./install-mac.sh -d=$LEARN_OPS_DB \
     -u=$LEARN_OPS_USER \
     -p=$LEARN_OPS_PASSWORD \
     -r=$LEARN_OPS_SUPERUSER_NAME \
