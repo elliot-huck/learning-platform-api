@@ -66,7 +66,7 @@ then
     echo "PostgreSQL is not installed"
     sudo apt install git curl python3-pip postgresql postgresql-contrib -y
     # Do we need to start this here?
-    sudo systemctl start postgresql.service
+    sudo service postgresql start
 fi
 
 # drop database before it's created
